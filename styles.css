@@ -7,3 +7,31 @@ h1 {
 p {
   color: red;
 }
+
+ul {
+  list-style-type:none;
+  float: right;
+  margin-right: 40px;
+  
+}
+
+li {
+  margin-right: 30px;
+  float: left;
+  padding: 12px;
+  letter-spacing: 2px;
+  font-family: fantasy;
+  font-size: 16px;
+}
+
+ul :hover {
+  background-color: rgba(235, 224, 224, 0.24);
+  
+}
+
+#name{
+  padding-right: 850px;
+}
+ul #name :hover{
+  background-color: black;
+}
