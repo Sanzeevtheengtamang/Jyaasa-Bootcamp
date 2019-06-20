@@ -1,23 +1,28 @@
-body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
-
-ul {
-  list-style-type:none;
-  float: right;
-  margin-right: 40px;
-  
-}
-
-li {
-  margin-right: 30px;
+.image{
   float: left;
+  padding: 12px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: rgb(115, 255, 0);
+}
+
+.list ul{
+  float:right;
+}
+ .list li{
+  list-style-type:none;
+  float: left;
+  margin-right: 30px;
   padding: 12px;
   letter-spacing: 2px;
   font-family: fantasy;
@@ -29,9 +34,97 @@ ul :hover {
   
 }
 
-#name{
-  padding-right: 850px;
+.clear{
+  clear: both;
 }
-ul #name :hover{
-  background-color: black;
+div.Navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#Home {
+  background-color: rgba(230, 222, 222, 0.24);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  display:inline-block;
+  padding:0px;
+  margin-bottom:-5px;
+}
+
+.button{
+  background-color: rgba(103, 200, 26, 0.6);
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.content{
+  display: table;
+  float:left;
+  padding:20%;
+  
+}
+
+#Aboutme {
+  background-color: rgba(221, 14, 14, 0.24);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+}
+
+#Skills {
+  background-color: rgba(230, 222, 222, 0.24);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  display:inline-block;
+  padding:0px;
+  margin-bottom:-5px;
+}
+
+#Works {
+  background-color: rgba(230, 222, 222, 0.24);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  display:inline-block;
+  padding:0px;
+  margin-bottom:-5px;
+}
+
+#Blogs{
+  background-color: rgba(230, 222, 222, 0.24);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  display:inline-block;
+  padding:0px;
+  margin-bottom:-5px;
+}
+
+#Contact{
+  background-color: rgba(230, 222, 222, 0.24);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  display:inline-block;
+  padding:0px;
+  margin-bottom:-5px;
 }
