@@ -63,7 +63,7 @@ div.Navigation {
   height: 100%;
   display:inline-block;
   padding:0px;
-  margin-bottom:-5px;
+  /* margin-bottom:-5px; */
 }
 
 .button{
@@ -98,7 +98,7 @@ div.Navigation {
   color: #feffff;
 }
 
-.content1 > h2{
+.content1> h2{
   font-size:18px;
   color:#3aafa9;
 }
@@ -129,51 +129,61 @@ i{
   height: 100%;
   display:inline-block;
   padding:0px;
-  margin:0 auto;
+  /* margin:0 auto; */
 }
 
 #Skills {
-  background-color: rgba(230, 222, 222, 0.24);
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background-color: rgba(230, 222, 222, 0.24); */
+  /* background-repeat: no-repeat;
+  background-position: center; */
   width: 100%;
-  height: 800px;
+  height: 1000px;
   display:inline-block;  
   justify-content: center;
   margin-bottom:-5px;
 }
 
 #Works {
-  background-color: rgba(230, 222, 222, 0.24);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #42413daf;
   width: 100%;
-  height: 800px;
+  height:1000px;
   display:inline-block;
   padding:0px;
   margin-bottom:-5px;
+  justify-content: center;
+}
+
+#worktitle,#skilltitle,#blogtitle{
+text-align: center;
+color: #feffff;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 32px;
+}
+
+.myworksdiv,.blogarticle{
+  padding-top: 8%;
 }
 
 #Blogs{
-  background-color: rgba(230, 222, 222, 0.24);
+  /* background-color: rgba(230, 222, 222, 0.24); */
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   display:inline-block;
   padding:0px;
-  margin-bottom:-5px;
+  /* margin-bottom:-5px; */
 }
 
 #Contact{
-  background-color: rgba(230, 222, 222, 0.24);
+  background-color: #42413daf;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   display:inline-block;
   padding:0px;
-  margin-bottom:-5px;
+  /* margin-bottom:-5px; */
 }
 
 .details{
@@ -215,7 +225,8 @@ p{
   text-align: justify;
   font-size: 24px;
   font-family: 'Lucida Sans';
-  color: rgb(202, 196, 196);
+  /* color: rgb(202, 196, 196); */
+  color: #06090a;
 }
 
 .flex-container-works{
@@ -226,7 +237,7 @@ p{
 }
 
 .flex-container-works> div {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1c5;
   border-radius: 5%;
   width: 30%; 
   height: 500px; 
@@ -239,33 +250,15 @@ p{
   font-size: 20px;
 }
 
-.flex-container-blog {
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:column;
-  justify-content: center;
-  
-}
-
-.flex-container-blog > div {
-  background-color: #f1f1f1;
-  border-radius: 15px;
-  width: 80%; 
-  margin: 20px;
-  padding: 25px;
-  line-height: 30px;
-  text-align: center;  
-  font-size: 20px;
-}
-
 .flex-container {
   display: flex;
+  background: transparent;
   border-radius: 15px;
 
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1c5;
   margin: 10px;
   padding: 2px;
 
@@ -302,34 +295,33 @@ p{
 }
 
 #Skills > div{
-  width:40%;
-  
-  
+  width:45%; 
 
 }
 
 .firstskill, .thirdskill{
   
-  margin-left: 35px;
+  margin-left: 50px;
   
   }
 .secondskill ,.fourthskill{
   
-  margin-right:35px;
+  margin-right:50px;
 }
 
 #skillimage{
-  height:50px;
-  width: 50px;
+  height:100px;
+  width: 150px;
   border-radius: 5px;
   float: left; 
   margin-right : 10px;
 }
 
 .contact {
+  padding: 20px;
   display: flex;
   justify-content: center;  
-  background-color: DodgerBlue;
+
 }
 
 /* .contact1 {
@@ -339,9 +331,25 @@ p{
 } */
 
 .contact1 > div {
-  background-color: white;
-  
+  width:100%;   
   margin: 10px;
   text-align: center;
  
 }
+.contct{
+  padding: 20%;
+}
+#contactme>h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  letter-spacing: 5px;
+  color: #feffff;
+}
+#contactme>h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #06090a;
+  font-size: 26px;
+}
+/* #logos{
+  float:left;
+} */
