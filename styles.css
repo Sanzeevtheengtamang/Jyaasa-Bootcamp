@@ -3,6 +3,14 @@
   padding: 12px;
 }
 
+.homeimage{
+float: right;
+/* position: relative; */
+margin-top:-100%;
+top:0 auto;
+margin-bottom: -8px;
+}
+
 a {
 text-decoration: none;
 color: white;
